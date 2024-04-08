@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+	int a[5] = { 1,2,3,3,2 };
+	int num = a[0];
+	for (int i = 1; i < 5; i++) {
+		num ^= a[i];
+
+	}
+	cout << "the number is:" << num << endl;
+	return 0;
+
+}
